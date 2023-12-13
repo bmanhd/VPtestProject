@@ -1,11 +1,11 @@
 # VPtestProject
 
-Hi Here is my initial solution to the proprosed problem in the tech test for victorian plumbing.
+Hi, here is my initial solution to the proposed problem in the tech test for Victorian Plumbing.
 
-I created an endpoint using the mediator pattern as its a pattern Im familiar with and feel would be useful for these sorts of business logic.
+I created an endpoint using the mediator pattern as it's a pattern I'm familiar with and feel would be useful for these sorts of business logic.
 
-I put some blocks in place for what would be an EF db context, just to showcase some automapped proprties. This however was commented out just because the solution itself wouldnt work without an actual DB. However ive shown how this would work with commented out methods, those would just need commenting out and a real db allocated to the Context.
+I put some blocks in place for what would be an EF db context, just to showcase some automapped properties. However, this was commented out because the solution itself wouldn't work without an actual DB. However, I've shown how this would work with commented-out methods. Those would just need commenting out and a real DB allocated to the context.
 
-mapped a few fields manually for example the date created which Id think the BE would handle if we want more precise times.
+I mapped a few fields manually, for example, the date created, which I'd think the backend would handle if we want more precise times.
 
-I also set up a unit test that just would run against the endpoint and show the order response being brought back with up to date data.
+I also set up a unit test that would run against the endpoint and show the order response being brought back with up-to-date data.
